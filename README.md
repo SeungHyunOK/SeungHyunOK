@@ -13,6 +13,6 @@
   </li>
   <li>Language : Java</li>
   <li>Skill & Tech : SpringFramework, STS 3, Oracle, MyBatis, JPA, API</li>
-  <li><a href="https://www.canva.com/design/DAFr4MguAt0/HkcQ1QEYE7lWvLmN0AAzzQ/view?utm_content=DAFr4MguAt0&utm_campaign=designshare&utm_medium=link&utm_source=editor">처음 구상 PPT</a></li>
-  <li><a href="https://www.canva.com/design/DAFzRs8JdQo/faK5aXI_RL18VPmGfi_Oeg/view?utm_content=DAFzRs8JdQo&utm_campaign=designshare&utm_medium=link&utm_source=editor">마지막 발표 PPT </a></li>
+  <li><a href="https://www.canva.com/design/DAFr4MguAt0/HkcQ1QEYE7lWvLmN0AAzzQ/view?utm_content=DAFr4MguAt0&utm_campaign=designshare&utm_medium=link&utm_source=editor">구상 PPT</a></li>
+  <li><a href="https://www.canva.com/design/DAFzRs8JdQo/faK5aXI_RL18VPmGfi_Oeg/view?utm_content=DAFzRs8JdQo&utm_campaign=designshare&utm_medium=link&utm_source=editor">발표 PPT </a></li>
 </ul>
