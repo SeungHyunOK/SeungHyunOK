@@ -5,12 +5,16 @@
 <h1><b>Projects</b></h1><hr>
 <h3>■ PurePlus</h3><br>
 <ul>
-  <li>개발기간 : 2023.09.02 ~ 2023.11.01 (2개월)</li>
-  <li>참여인원 : 4명</li>
-  <li>담당업무 : PPT자료 및 기획구상 UI 메인페이지 및 백엔드 로그인&로그아웃, 회원가입 개발
-  </li>
-  <li>Language : Java</li>
-  <li>Skill & Tech : SpringFramework, STS 3, Oracle, MyBatis, JPA, API</li>
-  <li><a href="https://www.canva.com/design/DAFr4MguAt0/HkcQ1QEYE7lWvLmN0AAzzQ/view?utm_content=DAFr4MguAt0&utm_campaign=designshare&utm_medium=link&utm_source=editor">구상 PPT</a></li>
-  <li><a href="https://www.canva.com/design/DAFzRs8JdQo/faK5aXI_RL18VPmGfi_Oeg/view?utm_content=DAFzRs8JdQo&utm_campaign=designshare&utm_medium=link&utm_source=editor">발표 PPT </a></li>
+  <li>개발기간 : 2024.10.07 ~ 2024.11.11 (약 6주)</li>
+  <li>참여인원 : 5명</li>
+  <li>담당업무 : 랜딩페이지, 개인설정페이지 작성</li>
+  <li>개발환경 : Next.js, TypeScript, TailwindCSS, ESLint, Prettier, Husky, lint-staged</li>
+  <li>사용도구 : zustand, react-query, axios, Git, Figma, Vercel</li>
+  <li>사용기술 : radix-ui,zod</li>
+  <li>개요 :<br>
+    팀을 생성하고 팀원을 구성하여 공통의 할 일을 만들어서 업무의 효율을 높이는 프로젝트입니다.<br>
+    또한 누구나 자유롭게 의견을 나눌 수 있는 자유게시판 기능도 제공합니다.</li>
+  <li>기획의도</li>
+  <li>목표 및 설계</li>
+  <li>후기</li>
 </ul>
