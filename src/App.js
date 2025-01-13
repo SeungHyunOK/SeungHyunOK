@@ -5,6 +5,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Nav from "./components/Nav/nav";
+import { Helmet } from "react-helmet";
 
 function App() {
   const introTextRef = useRef(null);
@@ -153,6 +154,18 @@ function App() {
   });
   return (
     <>
+      <Helmet>
+        <title>프론트엔드-옥승현</title>
+        <meta
+          name="프론트엔드|포트폴리오-옥승현"
+          content="프론트엔드 개발자 옥승현의 포트폴리오입니다"
+        />
+        <meta
+          name="keywords"
+          content="옥승현, 포트폴리오, 프론트엔드옥승현, 개발자옥승현"
+        />
+      </Helmet>
+
       <Nav />
       <section className="intro" ref={introRef}>
         <span ref={introTextRef} className="intro-sentenceContainer">

@@ -83,8 +83,8 @@ export const Projects = {
         "/images/portfolio/thanks.webp",
       ],
       links: [
-        { label: "배포사이트", url: "https://glowshelfie.vercel.app/" },
-        { label: "GitHub", url: "https://github.com/SeungHyunOK/Glowshelfie" },
+        { label: "배포사이트", url: "https://seunghyunok.vercel.app/" },
+        { label: "GitHub", url: "https://github.com/SeungHyunOK/SeungHyunOK" },
       ],
       logo: ["/images/portfolio/logo.webp"],
     },
