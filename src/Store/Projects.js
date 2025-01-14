@@ -9,14 +9,14 @@ export const Projects = {
       workDetails: [
         <>
           - 반응형 UI 설계와 최적화된 UX로 페이지 이탈률{" "}
-          <span className="highlight">12% 감소</span>.
+          <span className="highlight">12% 감소</span>
         </>,
         <>
           - 사용자 피부 데이터를 기반으로 한 맞춤형 추천 기능으로 사용자 참여율{" "}
-          <span className="highlight">15% 증가</span>.
+          <span className="highlight">15% 증가</span>
         </>,
         <>
-          - 팔로워 수 전월 대비 <span className="highlight">2.3% 상승</span>.
+          - 팔로워 수 전월 대비 <span className="highlight">2.3% 상승</span>
         </>,
       ],
       images: [
@@ -43,8 +43,8 @@ export const Projects = {
       duration: "2024.10.07~2024.11.14",
       techStack: ["React", "TypeScript", "Next.js"],
       workDetails: [
-        `- 로그인 상태를 감지해 "지금 시작하기" 클릭 시 홈이나 대시보드로 동적 라우팅 구현.`,
-        "- React와 TypeScript를 사용해 재사용 가능한 컴포넌트로 UI를 구조화하여 유지보수성을 향상.",
+        `- 로그인 상태를 감지해 "지금 시작하기" 클릭 시 홈이나 대시보드로 동적 라우팅 구현`,
+        "- React와 TypeScript를 사용해 재사용 가능한 컴포넌트로 UI를 구조화하여 유지보수성을 향상",
       ],
       images: [
         "/images/coworkers/co_all.gif",
@@ -70,9 +70,8 @@ export const Projects = {
       duration: "2024.01.01~2024.01.10",
       techStack: ["React", "GSAP"],
       workDetails: [
-        "- 반응형 UI 설계와 최적화된 UX로 페이지 이탈률 12% 감소",
-        "- 사용자 피부 데이터를 기반으로 한 맞춤형 추천 기능으로 사용자 참여율 15% 증가",
-        "- 팔로워 수 전월 대비 2.3% 상승",
+        "- GSAP ScrollTrigger를 사용하여 스크롤 기반 애니메이션 구현",
+        "- .webp 확장자를 활용해 이미지 로딩 속도 최적화",
       ],
       images: [
         "/images/portfolio/all.gif",

@@ -31,7 +31,7 @@ function App() {
         trigger: introRef.current,
         start: "top top",
         end: "bottom 50%",
-        scrub: true,
+        scrub: 3,
       },
     });
 
