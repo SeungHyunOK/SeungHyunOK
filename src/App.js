@@ -227,8 +227,8 @@ function App() {
           <h1>교육</h1>
           <h2>스프린트 프론트엔드 트랙8기 / 코드잇</h2>
           <p>
-            React,TypeScript,Git,Next.js를 학습하고 3개의 React 프로젝트를 진행
-            했습니다.
+            React, TypeScript, Git, Next.js를 학습하며, 이를 활용한 3개의 React
+            기반 프로젝트를 성공적으로 완료했습니다.
           </p>
           <span className="career-badge">
             <h3>수료</h3>
