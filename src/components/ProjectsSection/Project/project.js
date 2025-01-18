@@ -3,7 +3,7 @@ import "./project.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-function Project({
+export default function Project({
   title,
   type,
   participation,
@@ -162,5 +162,3 @@ function Project({
     </section>
   );
 }
-
-export default Project;
