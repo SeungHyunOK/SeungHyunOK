@@ -1,0 +1,14 @@
+.projects {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects h1 {
+  font-size: 3rem;
+  font-family: "CookieRunBlack";
+}
