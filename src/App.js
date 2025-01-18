@@ -155,15 +155,15 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>프론트엔드-옥승현</title>
+        <title>프론트엔드 개발자 - 옥승현</title>
         <meta
-          name="프론트엔드|포트폴리오-옥승현"
-          content="프론트엔드 개발자 옥승현의 포트폴리오입니다"
+          name="description"
+          content="프론트엔드 개발자 옥승현의 포트폴리오"
         />
-        <meta
-          name="keywords"
-          content="옥승현, 포트폴리오, 프론트엔드옥승현, 개발자옥승현"
-        />
+        <meta property="og:title" content="프론트엔드 개발자 - 옥승현" />
+        <meta property="og:description" content="옥승현의 포트폴리오" />
+        <meta property="og:image" content="/images/IDpicture_metaImage.jpg" />
+        <meta property="og:url" content="https://seunghyunok.vercel.app/" />
       </Helmet>
 
       <Nav />
