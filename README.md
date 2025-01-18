@@ -22,7 +22,7 @@ Glowshelfi는 TypeScript,Next.js 로 개발된 프로젝트로, 스킨케어 퀴
 
 ## 연락처
 
-- **이메일**: [www.naver.com](mailto:your-email@example.com)
+- **이메일**: [ohl2619@naver.com](mailto:your-email@example.com)
 - **포트폴리오 사이트**: [https://seunghyunok.vercel.app/](https://seunghyunok.vercel.app/)
 
 제 프로필을 방문해 주셔서 감사합니다! 
