@@ -50,8 +50,8 @@ export default function Project({
     const containerTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
-        start: "top 85%",
-        end: "bottom center",
+        start: "top 80%",
+        end: "top 50%",
         scrub: 3,
       },
     });
