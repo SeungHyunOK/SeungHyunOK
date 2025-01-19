@@ -1,3 +1,4 @@
+// import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav/nav";
 import { Helmet } from "react-helmet";
@@ -7,6 +8,7 @@ import Skills from "./components/Skills/skills";
 import ProjectsSection from "./components/ProjectsSection/projectsSection";
 import Thanks from "./components/Thanks/thanks";
 import Footer from "./components/Footer/footer";
+import Study from "./components/Study/study";
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
       <About />
       <Skills />
       <ProjectsSection />
+      <Study />
       <Thanks />
       <Footer />
     </>
