@@ -3,7 +3,7 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer>
-      <div class="footer-content">
+      <div className="footer-content">
         <p>&copy; 2025 Seunghyun Ok. All rights reserved.</p>
         <p>
           <a

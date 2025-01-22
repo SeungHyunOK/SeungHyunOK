@@ -1,4 +1,3 @@
-// import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav/nav";
 import { Helmet } from "react-helmet";
@@ -9,10 +8,34 @@ import ProjectsSection from "./components/ProjectsSection/projectsSection";
 import Thanks from "./components/Thanks/thanks";
 import Footer from "./components/Footer/footer";
 import Study from "./components/Study/study";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function App() {
+  const progressRef = useRef(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.fromTo(
+      progressRef.current,
+      { attr: { value: 0 } },
+      {
+        attr: { value: 100 },
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top top",
+          end: "bottom bottom",
+          scrub: 1,
+        },
+        ease: "power2.out",
+      }
+    );
+  }, []);
   return (
-    <>
+    <div ref={containerRef}>
       <Helmet>
         <title>프론트엔드 개발자 - 옥승현</title>
         <meta
@@ -25,6 +48,9 @@ function App() {
         <meta property="og:url" content="https://seunghyunok.vercel.app/" />
       </Helmet>
       <Nav />
+      <div className="progressbar">
+        <progress ref={progressRef} max="100" value="0"></progress>
+      </div>
       <Intro />
       <About />
       <Skills />
@@ -32,7 +58,7 @@ function App() {
       <Study />
       <Thanks />
       <Footer />
-    </>
+    </div>
   );
 }
 
