@@ -1,13 +1,13 @@
 import "./App.css";
-import Nav from "./components/Nav/nav";
+import Nav from "./pages/Nav/nav";
 import { Helmet } from "react-helmet";
-import Intro from "./components/Intro/intro";
-import About from "./components/About/about";
-import Skills from "./components/Skills/skills";
-import ProjectsSection from "./components/ProjectsSection/projectsSection";
-import Thanks from "./components/Thanks/thanks";
-import Footer from "./components/Footer/footer";
-import Study from "./components/Study/study";
+import Intro from "./pages/Intro/intro";
+import About from "./pages/About/about";
+import Skills from "./pages/Skills/skills";
+import ProjectsSection from "./pages/ProjectsSection/projectsSection";
+import Thanks from "./pages/Thanks/thanks";
+import Footer from "./pages/Footer/footer";
+import Study from "./pages/Study/study";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -25,19 +25,22 @@ function App() {
       {
         attr: { value: 100 },
         scrollTrigger: {
-          trigger: containerRef.current,
+          trigger: document.body,
           start: "top top",
           end: "bottom bottom",
-          scrub: 1,
+          scrub: 0.2,
         },
         ease: "power2.out",
       }
     );
+
+    ScrollTrigger.refresh();
   }, []);
+
   return (
     <div ref={containerRef}>
       <Helmet>
-        <title>프론트엔드 개발자 - 옥승현</title>
+        <title>프론트엔드 - 옥승현</title>
         <meta
           name="description"
           content="프론트엔드 개발자 옥승현의 포트폴리오"

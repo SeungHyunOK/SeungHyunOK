@@ -1,0 +1,334 @@
+.projectOverlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectInlay {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: #8bc34a solid 0.1rem;
+  width: 80vw;
+  height: 90vh;
+  position: relative;
+  overflow-y: auto;
+}
+
+.projectLinkContainer {
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projectLink {
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  border: none;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
+
+.projectLink:hover {
+  color: gray;
+  transition: color 0.3s ease;
+}
+
+.projectLink-img {
+  width: 2rem;
+  padding: 0.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+}
+
+.projectLink:hover .projectLink-img {
+  transition: background 0.3s ease;
+  background: gray;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  overflow: auto;
+  padding: 3rem 2rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #4c4c4c, black);
+}
+
+.projectBadges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.projectBadges p {
+  background-color: rgba(140, 140, 140, 0.5);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.projectTitle {
+  color: #8bc34a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.projectLogo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.projectSubTitle {
+  font-size: 0.8rem;
+  color: #ababab;
+  margin-bottom: 1rem;
+}
+
+.projectImage-intro {
+  border: #ababab solid 0.1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  display: block;
+}
+.projectSimpleDescription {
+  font-size: 1rem;
+  margin: 2rem;
+  width: 100%;
+  white-space: pre-line;
+  max-width: 50rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.2rem;
+}
+.dividingLine {
+  border: white solid 0.1rem;
+  width: 100%;
+  max-width: 50rem;
+  margin-bottom: 2rem;
+}
+
+.projectDescription {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 50rem;
+  height: auto;
+}
+
+.projectDescription-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  gap: 0.5rem;
+}
+.projectDescription-sectionUl {
+  width: 100%;
+  padding-left: 1.5rem;
+}
+.projectDescription-sectionUl li {
+  padding: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.projectDescription-title {
+  color: #8bc34a;
+  letter-spacing: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bolderer;
+  margin-bottom: 1rem;
+}
+
+.projectDescription-assistance {
+  font-size: 0.8rem;
+  color: #ababab;
+}
+
+.projectDescription-toggle {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+
+.projectDescription-toggleButton {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #666666;
+  padding: 0.4rem 0;
+  cursor: pointer;
+}
+
+.projectDescription-toggleButton p {
+  line-height: 1.2rem;
+  font-size: 1rem;
+}
+
+.projectDescription-toggleButton-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.projectDescription-toogleSentence {
+  width: 100%;
+  letter-spacing: 0.1rem;
+  line-height: 1.2rem;
+}
+
+.projectDescription-toogleSentence ul {
+  background-color: #323232;
+  padding: 0 2rem;
+}
+
+.projectDescription-toogleSentence li {
+  padding: 0.4rem 0;
+}
+
+.projectDescription-results {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+}
+
+.projectDescription-imageContainer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectDescription-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.projectDescription-resultOverlay {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectDescription-resultContainer {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: #8bc34a solid 0.1rem;
+  width: auto;
+  height: 90vh;
+  position: relative;
+  overflow-y: auto;
+}
+.projectDescription-resultContainer-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  padding: 0.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.projectDescription-resultContainer-close:hover {
+  transition: background 0.3s ease;
+  background: gray;
+}
+
+.projectDescription-resultContainer-selected {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+@media (max-width: 768px) {
+  .projectContainer {
+    border-radius: 0;
+  }
+  .projectInlay {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .projectLinkContainer {
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #4c4c4c;
+    justify-content: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .projectDescription-resultContainer {
+    width: 100vw;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+html {
+  scrollbar-width: thin;
+}

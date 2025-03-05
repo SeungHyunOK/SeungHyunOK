@@ -1,0 +1,86 @@
+.aboutcarrer {
+  min-width: 100%;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  margin-top: 10rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  gap: 1.8rem;
+}
+
+.about-sentence {
+  margin: 1rem;
+}
+
+.about-sentence h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #8bc34a;
+}
+
+.about-sentence p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.profile {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+
+.career {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  scroll-snap-align: center;
+}
+
+.career h1 {
+  font-size: 3rem;
+}
+
+.career h2 {
+  color: #8bc34a;
+}
+
+.career p {
+  color: #b3b3b3;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.career-badge {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.career-badge h3 {
+  background-color: rgba(140, 140, 140, 0.5);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.2rem;
+}
