@@ -8,37 +8,10 @@ import ProjectsSection from "./pages/ProjectsSection/projectsSection";
 import Thanks from "./pages/Thanks/thanks";
 import Footer from "./pages/Footer/footer";
 import Study from "./pages/Study/study";
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function App() {
-  const progressRef = useRef(null);
-  const containerRef = useRef(null);
-
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.fromTo(
-      progressRef.current,
-      { attr: { value: 0 } },
-      {
-        attr: { value: 100 },
-        scrollTrigger: {
-          trigger: document.body,
-          start: "top top",
-          end: "bottom bottom",
-          scrub: 0.2,
-        },
-        ease: "power2.out",
-      }
-    );
-
-    ScrollTrigger.refresh();
-  }, []);
-
   return (
-    <div ref={containerRef}>
+    <div>
       <Helmet>
         <title>프론트엔드 - 옥승현</title>
         <meta
@@ -51,9 +24,6 @@ function App() {
         <meta property="og:url" content="https://seunghyunok.vercel.app/" />
       </Helmet>
       <Nav />
-      <div className="progressbar">
-        <progress ref={progressRef} max="100" value="0"></progress>
-      </div>
       <Intro />
       <About />
       <Skills />
