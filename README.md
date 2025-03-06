@@ -8,17 +8,30 @@
 
 ## 주요 프로젝트
 
-### 1. <a href="https://glowshelfie.vercel.app/" target="_blank" rel="noreferrer">Glowshelfi</a>
+### 1. Glowshelfie
+<a href="https://glowshelfie.vercel.app/" target="_blank" rel="noreferrer">배포링크</a>
+<a href="https://github.com/SeungHyunOK/Glowshelfie" target="_blank" rel="noreferrer">Repository</a>
 
 Glowshelfi는 TypeScript,Next.js 로 개발된 프로젝트로, 스킨케어 퀴즈, 영상에소걔된 제품확인 기능을 포함하고 있습니다. 
 
-### 2. <a href="https://seunghyunok.vercel.app/" target="_blank" rel="noreferrer">Portfolio</a>
+### 2. Portfolio
+<a href="https://seunghyunok.vercel.app/" target="_blank" rel="noreferrer">배포링크</a>
+<a href="https://github.com/SeungHyunOK/SeungHyunOK" target="_blank" rel="noreferrer">Repository</a>
 
 제 개인 포트폴리오 웹사이트로, 프로젝트와 경력을 소개하고 있습니다. 
 
-### 3. <a href="https://coworkers-colla.netlify.app/" target="_blank" rel="noreferrer">Coworkers</a>
+### 3. Coworkers
+<a href="https://coworkers-colla.netlify.app/" target="_blank" rel="noreferrer">배포링크</a>
+<a href="https://github.com/team-collabor/coworkers" target="_blank" rel="noreferrer">Repository</a>
 
 첫번째 팀프로젝트 웹사이트로, 협업을 할 수 있는 웹사이트입니다.
+
+### 4. Eobom
+<a href="https://eobom-243e0.web.app/login/" target="_blank" rel="noreferrer">배포링크</a>
+<a href="https://github.com/SeungHyunOK/eobom" target="_blank" rel="noreferrer">Repository</a>
+
+해커톤 프로젝트로 노인과 요양보호사를 연결 시켜주는 웹 어플리케이션입니다.*현재 백엔드 서버가 닫혀있어서 확인이 불가능합니다.
+
 
 ## 연락처
 
