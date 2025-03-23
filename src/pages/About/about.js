@@ -82,7 +82,7 @@ export default function About() {
           </div>
         </div>
         <img
-          src="/images/IDpicture.jpg"
+          src="/images/IDpicture.webp"
           alt="IDpicture"
           title="옥승현"
           className="profile"

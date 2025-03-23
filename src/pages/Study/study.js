@@ -45,54 +45,32 @@ export default function Study() {
         </div>
 
         <div className="study-section">
-          <h2>Zustand 학습 중</h2>
+          <h2>인공지능 언어 처리, 마스터 과정 - Seoul-ICT 구름</h2>
 
           <div className="study-article">
-            <h3>왜 공부하고 있나요?</h3>
-            <p>
-              React의 상태 관리 솔루션으로 Redux에 비해 더 가볍고 단순한 구조를
-              제공하기 때문입니다. 특히, 중소규모 프로젝트에서 간결하고 효율적인
-              상태 관리를 구현할 수 있어 관심을 가지게 되었습니다.
-            </p>
+            <p>언어 데이터 분석 능력 함양</p>
+            <p>딥러닝 모델을 활용한 자연어 처리 기술 습득</p>
+            <p>실제 응용 사례를 기반으로 한 실무 능력 배양</p>
           </div>
 
           <div className="study-article">
             <h3>학습 내용</h3>
             <ul>
-              <li>React Context와 비교하며 Zustand의 장점 이해.</li>
-              <li>
-                Zustand의 middleware를 활용한 상태 로깅 및 비동기 작업 처리 방법
-                실습.
-              </li>
+              <li>자연어 처리 기초 이론</li>
+              <li>텍스트 전처리 및 토큰화 기법</li>
+              <li>주요 딥러닝 모델 (RNN, LSTM, Transformer) 학습</li>
+              <li>BERT와 GPT 같은 최신 언어 모델의 활용 사례</li>
+              <li>프로젝트 기반 학습으로 실제 데이터셋을 활용한 문제 해결</li>
             </ul>
           </div>
         </div>
 
         <div className="study-section">
           <h2>진행 상황</h2>
-
           <div className="study-article">
-            <h3>학습 자료</h3>
             <ul>
               <li>
-                <a
-                  href="https://zustand-demo.pmnd.rs/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Zustand 공식 문서
-                </a>
-              </li>
-              <li>YouTube 튜토리얼 및 관련 블로그 포스팅</li>
-            </ul>
-          </div>
-
-          <div className="study-article">
-            <h3>진행 중인 연습</h3>
-            <ul>
-              <li>Redux와 Zustand의 코드량 및 효율성 비교.</li>
-              <li>
-                SSR (Server Side Rendering) 환경에서 Zustand 상태 관리 실험.
+                선형회귀 그래프를 Python을 이용해서 코드로 변환하고있습니다.{" "}
               </li>
             </ul>
           </div>
@@ -102,11 +80,7 @@ export default function Study() {
           <h2>다음 목표</h2>
           <div className="study-article">
             <ul>
-              <li>
-                Zustand의 persist middleware를 사용하여 상태를 로컬 스토리지에
-                저장하기.
-              </li>
-              <li>대규모 상태 관리 시 성능 최적화를 위한 구조 설계 실험.</li>
+              <li>경사하강법,평균 제곱근오차 공부하기</li>
             </ul>
           </div>
         </div>

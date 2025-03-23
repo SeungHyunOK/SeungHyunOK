@@ -175,6 +175,82 @@ export const Projects = {
       ],
     },
   ],
+
+  GSF_inventory: [
+    {
+      badges: ["솔로", "토이", "반응형"],
+      logo: "/images/glowshelfieInventory/logo.webp",
+      title: "GSF-inventory",
+      subTitle: "2024.12.20 ~ 2024.12.25 솔로",
+      introImg: "/images/glowshelfieInventory/home.webp",
+      simpleDescription:
+        "Glowshelfie의 재고를 효율적으로 관리하기 위한 웹 애플리케이션입니다. 사용자는 제품 정보 등록, 수정, 검색, 유통기한 확인 등을 간편하게 수행할 수 있으며, MongoDB와 Express 기반의 백엔드 서버와 연동하여 데이터를 실시간으로 처리합니다.",
+      features: [
+        "상품 CRUD 기능",
+        "브랜드/카테고리 검색 필터",
+        "유통기한 정렬 및 확인 기능",
+        "로그인 인증 기능 (JWT 기반)",
+      ],
+      techStack: {
+        React: [
+          "컴포넌트 기반 구조로 UI를 구성하였으며, 사용자 인터페이스의 재사용성과 유지보수성을 높였습니다.",
+        ],
+        JavaScript: [
+          "전체 애플리케이션의 로직을 JavaScript로 구현하여 동적인 UI 처리 및 비동기 작업을 처리했습니다.",
+        ],
+        CSS: [
+          "직접 작성한 CSS를 통해 사용자 경험 중심의 디자인을 구성하였고, 반응형 요소를 적용하였습니다.",
+        ],
+        NodeJS: [
+          "백엔드 서버를 Node.js 기반으로 구성하였으며, Express를 활용해 RESTful API를 구현했습니다.",
+        ],
+        MongoDB: [
+          "NoSQL 기반 MongoDB를 사용해 제품 데이터 저장 및 검색을 효율적으로 수행하였습니다.",
+        ],
+        Vercel: [
+          "프론트엔드 배포에 사용하였으며, 간편한 CI/CD 환경을 통해 개발한 기능을 즉시 배포했습니다.",
+        ],
+      },
+      workDetails: {
+        "재고 관리 UI 구성": [
+          "React를 활용해 브랜드, 제품명, 수량, 유통기한 등 정보를 한눈에 확인할 수 있는 UI 구성",
+        ],
+        "CRUD 기능 구현": [
+          "제품 추가, 수정, 삭제, 검색 기능을 모두 프론트-백엔드 연동으로 처리",
+        ],
+        "서버 연동": [
+          "Express 서버와 MongoDB를 연동하여 제품 데이터의 실시간 등록 및 조회 가능하도록 구현",
+        ],
+      },
+      troubleShooting: {
+        "날짜 정렬 이슈": [
+          "해결: 유통기한을 문자열이 아닌 Date 객체로 처리하여 정렬 정확도 개선",
+          "회고: 프론트에서 단순 정렬 로직보단 DB단 처리로 성능 개선 필요성 인식",
+        ],
+        "CORS 에러 발생": [
+          "해결: Express 서버에 CORS 설정 추가",
+          "회고: 프론트와 백엔드 포트를 다르게 운영할 때의 기본 보안 개념 숙지",
+        ],
+      },
+      results: {
+        메인화면: ["/images/glowshelfieInventory/home.webp"],
+        로그인: ["/images/glowshelfieInventory/login.webp"],
+        "제품 추가": ["/images/glowshelfieInventory/add.webp"],
+        "제품 업데이트": ["/images/glowshelfieInventory/update.webp"],
+      },
+      links: [
+        {
+          label: "배포사이트",
+          url: "https://glowshelfie-inventory.vercel.app/",
+        },
+        {
+          label: "GitHub",
+          url: "https://github.com/SeungHyunOK/Glowshelfie-Inventory",
+        },
+      ],
+    },
+  ],
+
   Portfolio: [
     {
       badges: ["솔로", "포트폴리오", "PC"],

@@ -155,6 +155,43 @@ export default function ProjectsSection() {
           </div>
         </div>
 
+        <div className="project">
+          <div className="project-a">
+            <button onClick={() => openModal(Projects.GSF_inventory)}>
+              자세히 보기
+            </button>
+            <a
+              href="https://glowshelfie-inventory.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              배포 링크
+            </a>
+            <a
+              href="https://github.com/SeungHyunOK/Glowshelfie-Inventory"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+          <img
+            src="/images/glowshelfieInventory/all.gif"
+            alt="coworkers_gif"
+            className="project-image"
+          />
+          <div className="project-content">
+            <h2>GSF-inventory</h2>
+            <p>Glowshelfie의 재고관리페이지.</p>
+          </div>
+          <div className="badges">
+            {" "}
+            <p>솔로</p>
+            <p>토이</p>
+            <p>반응형</p>
+          </div>
+        </div>
+
         {/* Portfolio-SeunghyunOK */}
         <div className="project">
           <div className="project-a">
