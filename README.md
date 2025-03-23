@@ -1,49 +1,66 @@
+# 👋 안녕하세요, 옥승현(SeungHyun OK)입니다!
+
 ![프로필사진](https://seunghyunok.vercel.app/images/IDpicture.webp)
-안녕하세요! 저는 **SeungHyunOK**입니다. 제 GitHub 프로필에 오신 것을 환영합니다. 아래는 제 소개와 주요 프로젝트들입니다.
 
-## 소개
+웹 애플리케이션 개발과 사용자 경험 향상에 열정을 가진 프론트엔드 개발자입니다.
 
-- **이름**: SeungHyunOK
-- **관심 분야**: 웹 개발, 프론트엔드 기술
-- **기술 스택**: JavaScript, TypeScript, React, HTML, CSS
+## 🚀 소개
 
-## 주요 프로젝트
+- 🌱 현재 **프론트엔드 개발** 심화 학습 중
+- 💡 **사용자 경험(UX), 웹 접근성, 깔끔한 코드**를 중요하게 생각합니다.
+- 🔧 사용 기술:
+  - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
+  - ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)
+  - ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black)
+  - ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js&logoColor=white)
+  - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
+  - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
 
+---
 
-### 1. Glowshelfie
-![사진](https://seunghyunok.vercel.app/images/glowshelfie/all.gif)
-[배포링크](https://glowshelfie.vercel.app/) / [Repository](https://github.com/SeungHyunOK/Glowshelfie)
+## 💻 주요 프로젝트
 
-Glowshelfi는 TypeScript,Next.js 로 개발된 프로젝트로, 스킨케어 퀴즈, 영상에소걔된 제품확인 기능을 포함하고 있습니다. 
+### 1. [**Glowshelfie**](https://glowshelfie.vercel.app/) | [📂 저장소](https://github.com/SeungHyunOK/Glowshelfie)
+![Glowshelfie GIF](https://seunghyunok.vercel.app/images/glowshelfie/all.gif)
+- 스킨케어 퀴즈 및 영상 제품 추천 웹 앱
+- **기술 스택:** Next.js, TypeScript
 
+---
 
-### 2. Coworkers
-![사진](https://seunghyunok.vercel.app/images/coworkers/co_all.gif)<br/>
-[배포링크](https://coworkers-colla.netlify.app/) / [Repository](https://github.com/team-collabor/coworkers)
+### 2. [**Coworkers**](https://coworkers-colla.netlify.app/) | [📂 저장소](https://github.com/team-collabor/coworkers)
+![Coworkers GIF](https://seunghyunok.vercel.app/images/coworkers/co_all.gif)
+- 협업을 위한 팀 웹 플랫폼
+- **기술 스택:** React, JavaScript
 
-첫번째 팀프로젝트 웹사이트로, 협업을 할 수 있는 웹사이트입니다.
+---
 
-### 3. Eobom
-![사진](https://seunghyunok.vercel.app/images/eobom/all.gif)<br/>
-[배포링크](https://eobom-243e0.web.app/login/) / [Repository](https://github.com/SeungHyunOK/eobom)
+### 3. [**Eobom**](https://eobom-243e0.web.app/login/) | [📂 저장소](https://github.com/SeungHyunOK/eobom)
+![Eobom GIF](https://seunghyunok.vercel.app/images/eobom/all.gif)
+- 노인과 요양보호사를 연결하는 웹 앱 *(현재 백엔드 서버 오프라인 상태)*
+- **기술 스택:** React, Firebase
 
-해커톤 프로젝트로 노인과 요양보호사를 연결 시켜주는 웹 어플리케이션입니다.*현재 백엔드 서버가 닫혀있어서 확인이 불가능합니다.
+---
 
-### 4. GSF_invenory
-![사진](https://seunghyunok.vercel.app/images/glowshelfieInventory/all.gif)
-[배포링크](https://glowshelfie-inventory.vercel.app/) / [Repository](https://github.com/SeungHyunOK/Glowshelfie-Inventory)
+### 4. [**GSF Inventory**](https://glowshelfie-inventory.vercel.app/) | [📂 저장소](https://github.com/SeungHyunOK/Glowshelfie-Inventory)
+![GSF Inventory GIF](https://seunghyunok.vercel.app/images/glowshelfieInventory/all.gif)
+- 개인 스킨케어 제품 관리 시스템
+- **기술 스택:** React, TypeScript
 
-제 개인 포트폴리오 웹사이트로, 프로젝트와 경력을 소개하고 있습니다. 
+---
 
-### 5. Portfolio
-![사진](https://seunghyunok.vercel.app/images/portfolio/all.gif)
-[배포링크](https://seunghyunok.vercel.app/) / [Repository](https://github.com/SeungHyunOK/SeungHyunOK)
+### 5. [**개인 포트폴리오**](https://seunghyunok.vercel.app/) | [📂 저장소](https://github.com/SeungHyunOK/SeungHyunOK)
+![Portfolio GIF](https://seunghyunok.vercel.app/images/portfolio/all.gif)
+- 프로젝트 및 기술 소개 개인 포트폴리오
+- **기술 스택:** React, TypeScript, CSS
 
-제 개인 포트폴리오 웹사이트로, 프로젝트와 경력을 소개하고 있습니다. 
+---
 
-## 연락처
+## 📫 연락처
 
-- **이메일**: [ohl2619@naver.com](mailto:ohl2619@naver.com)
-- **포트폴리오 사이트**: [https://seunghyunok.vercel.app/](https://seunghyunok.vercel.app/)
+- 📧 **이메일:** [ohl2619@naver.com](mailto:ohl2619@naver.com)
+- 🌐 **포트폴리오:** [seunghyunok.vercel.app](https://seunghyunok.vercel.app)
 
-제 프로필을 방문해 주셔서 감사합니다! 
+---
+
+✨ 방문해 주셔서 감사합니다! ✨
+
