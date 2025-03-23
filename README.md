@@ -1,3 +1,4 @@
+![프로필사진](https://seunghyunok.vercel.app/images/IDpicture.webp)
 안녕하세요! 저는 **SeungHyunOK**입니다. 제 GitHub 프로필에 오신 것을 환영합니다. 아래는 제 소개와 주요 프로젝트들입니다.
 
 ## 소개
@@ -10,26 +11,35 @@
 
 
 ### 1. Glowshelfie
+![사진](https://seunghyunok.vercel.app/images/glowshelfie/all.gif)
 [배포링크](https://glowshelfie.vercel.app/) / [Repository](https://github.com/SeungHyunOK/Glowshelfie)
 
 Glowshelfi는 TypeScript,Next.js 로 개발된 프로젝트로, 스킨케어 퀴즈, 영상에소걔된 제품확인 기능을 포함하고 있습니다. 
 
-### 2. Portfolio
-[배포링크](https://seunghyunok.vercel.app/) / [Repository](https://github.com/SeungHyunOK/SeungHyunOK)
 
-제 개인 포트폴리오 웹사이트로, 프로젝트와 경력을 소개하고 있습니다. 
-
-### 3. Coworkers
+### 2. Coworkers
+![사진](https://seunghyunok.vercel.app/images/coworkers/co_all.gif)<br/>
 [배포링크](https://coworkers-colla.netlify.app/) / [Repository](https://github.com/team-collabor/coworkers)
-
 
 첫번째 팀프로젝트 웹사이트로, 협업을 할 수 있는 웹사이트입니다.
 
-### 4. Eobom
+### 3. Eobom
+![사진](https://seunghyunok.vercel.app/images/eobom/all.gif)<br/>
 [배포링크](https://eobom-243e0.web.app/login/) / [Repository](https://github.com/SeungHyunOK/eobom)
 
 해커톤 프로젝트로 노인과 요양보호사를 연결 시켜주는 웹 어플리케이션입니다.*현재 백엔드 서버가 닫혀있어서 확인이 불가능합니다.
 
+### 4. GSF_invenory
+![사진](https://seunghyunok.vercel.app/images/glowshelfieInventory/all.gif)
+[배포링크](https://glowshelfie-inventory.vercel.app/) / [Repository](https://github.com/SeungHyunOK/Glowshelfie-Inventory)
+
+제 개인 포트폴리오 웹사이트로, 프로젝트와 경력을 소개하고 있습니다. 
+
+### 5. Portfolio
+![사진](https://seunghyunok.vercel.app/images/portfolio/all.gif)
+[배포링크](https://seunghyunok.vercel.app/) / [Repository](https://github.com/SeungHyunOK/SeungHyunOK)
+
+제 개인 포트폴리오 웹사이트로, 프로젝트와 경력을 소개하고 있습니다. 
 
 ## 연락처
 
