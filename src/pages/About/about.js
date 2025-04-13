@@ -100,7 +100,6 @@ export default function About() {
           <h3>수료</h3>
           <h3>2024.05 ~ 2024.11 </h3>
         </span>
-
         <h2>2025년 블레이버스 MVP 개발 해커톤</h2>
         <p>
           해커톤 기간 동안, 팀원들과 함께 아이디어 구체화부터 프로토타입
@@ -112,6 +111,45 @@ export default function About() {
         <span className="career-badge">
           <h3>수료</h3>
           <h3>2025.02.10 ~ 2025.02.19</h3>
+        </span>
+
+        <h2>구름EDU 인공지능 언어 마스터 과정 수강 중</h2>
+        <p>
+          Python, Pandas, Scikit-learn을 활용한 데이터 분석 및 모델링 실습,
+          <br />
+          Kaggle 타이타닉 데이터를 기반으로 생존자 예측 모델 구현 <br />
+          (데이터 전처리, 특성 선택, 모델 학습 및 성능 평가 경험)
+        </p>
+        <span className="career-badge">
+          <h3>2025.03 ~ 현재</h3>
+        </span>
+
+        <h2>Google Developers 2025 H1 AI Study Jam 참가</h2>
+        <p>
+          - Vertex AI, Palm API 등 Google Cloud 기반 생성형 AI 기술 학습 <br />
+          -AI 모델 기획 및 프롬프트 설계 워크숍 참여 중 <br />- 실습 중심 과제로
+          텍스트 생성/분류
+        </p>
+        <span className="career-badge">
+          <h3>2025.03 ~ 현재</h3>
+        </span>
+
+        <h2>스위프 웹 9기 해커톤 개인 참가 </h2>
+        <p>
+          - '인디 작가 × 소비자 직거래 마켓플레이스' MVP 개발 <br />
+          - 창작자 포트폴리오 전시 + 쇼룸 + 마켓 기능 통합 플랫폼 기획
+          <br />
+          - 니치 타겟팅 디자인으로 취향 기반 고객 확보 전략 수립
+          <br />
+          - 실시간 채팅(Socket.IO),태그 검색(Elasticsearch), 이미지 최적화(WebP,
+          Lazy Loading) 기능 설계
+          <br />
+          - 작가 초대/관리, 커뮤니티, 1:1 문의, 팔로우 등 유저 경험 중심 기능
+          기획 및 구현
+          <br />- Next.js App Router, TypeScript, Zustand, TailwindCSS 사용
+        </p>
+        <span className="career-badge">
+          <h3>2025.04 ~ 현재</h3>
         </span>
       </div>
     </section>
