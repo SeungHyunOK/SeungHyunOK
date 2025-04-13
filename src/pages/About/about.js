@@ -91,49 +91,6 @@ export default function About() {
       </div>
       <div className="career" ref={careerRef}>
         <h1>교육 & 경험</h1>
-        <h2>스프린트 프론트엔드 트랙8기 / 코드잇</h2>
-        <p>
-          React, TypeScript, Git, Next.js를 학습하며, 이를 활용한 3개의 React
-          기반 프로젝트를 성공적으로 완료했습니다.
-        </p>
-        <span className="career-badge">
-          <h3>수료</h3>
-          <h3>2024.05 ~ 2024.11 </h3>
-        </span>
-        <h2>2025년 블레이버스 MVP 개발 해커톤</h2>
-        <p>
-          해커톤 기간 동안, 팀원들과 함께 아이디어 구체화부터 프로토타입
-          개발까지 전 과정을 경험하며,
-          <br /> 제한된 시간 안에 최소 기능 제품(MVP)을 완성하는데 집중했습니다.
-          <br /> 이를 통해 빠른 의사결정, 실시간 협업, 그리고 문제 해결 역량을
-          크게 향상시킬 수 있었습니다.
-        </p>
-        <span className="career-badge">
-          <h3>수료</h3>
-          <h3>2025.02.10 ~ 2025.02.19</h3>
-        </span>
-
-        <h2>구름EDU 인공지능 언어 마스터 과정 수강 중</h2>
-        <p>
-          Python, Pandas, Scikit-learn을 활용한 데이터 분석 및 모델링 실습,
-          <br />
-          Kaggle 타이타닉 데이터를 기반으로 생존자 예측 모델 구현 <br />
-          (데이터 전처리, 특성 선택, 모델 학습 및 성능 평가 경험)
-        </p>
-        <span className="career-badge">
-          <h3>2025.03 ~ 현재</h3>
-        </span>
-
-        <h2>Google Developers 2025 H1 AI Study Jam 참가</h2>
-        <p>
-          - Vertex AI, Palm API 등 Google Cloud 기반 생성형 AI 기술 학습 <br />
-          -AI 모델 기획 및 프롬프트 설계 워크숍 참여 중 <br />- 실습 중심 과제로
-          텍스트 생성/분류
-        </p>
-        <span className="career-badge">
-          <h3>2025.03 ~ 현재</h3>
-        </span>
-
         <h2>스위프 웹 9기 해커톤 개인 참가 </h2>
         <p>
           - '인디 작가 × 소비자 직거래 마켓플레이스' MVP 개발 <br />
@@ -150,6 +107,52 @@ export default function About() {
         </p>
         <span className="career-badge">
           <h3>2025.04 ~ 현재</h3>
+        </span>
+
+        <h2>Google Developers 2025 H1 AI Study Jam 참가</h2>
+        <p>
+          - Vertex AI, Palm API 등 Google Cloud 기반 생성형 AI 기술 학습 <br />
+          -AI 모델 기획 및 프롬프트 설계 워크숍 참여 중 <br />- 실습 중심 과제로
+          텍스트 생성/분류
+        </p>
+        <span className="career-badge">
+          <h3>2025.03 ~ 현재</h3>
+        </span>
+
+        <h2>구름EDU 인공지능 언어 마스터 과정 수강 중</h2>
+        <p>
+          Python, Pandas, Scikit-learn을 활용한 데이터 분석 및 모델링 실습,
+          <br />
+          Kaggle 타이타닉 데이터를 기반으로 생존자 예측 모델 구현 <br />
+          (데이터 전처리, 특성 선택, 모델 학습 및 성능 평가 경험)
+        </p>
+        <span className="career-badge">
+          <h3>2025.03 ~ 현재</h3>
+        </span>
+
+        <h2>2025년 블레이버스 MVP 개발 해커톤</h2>
+        <p>
+          해커톤 기간 동안, 팀원들과 함께 아이디어 구체화부터 프로토타입
+          개발까지 전 과정을 경험하며,
+          <br /> 제한된 시간 안에 최소 기능 제품(MVP)을 완성하는데 집중했습니다.
+          <br /> 이를 통해 빠른 의사결정, 실시간 협업, 그리고 문제 해결 역량을
+          크게 향상시킬 수 있었습니다.
+        </p>
+        <span className="career-badge">
+          <h3>수료</h3>
+          <h3>2025.02.10 ~ 2025.02.19</h3>
+        </span>
+
+        <h2>스프린트 프론트엔드 트랙8기 / 코드잇</h2>
+        <p>
+          약 1,000시간 동안 React, TypeScript, Git, Next.js를 집중적으로
+          학습하고,
+          <br />
+          이를 활용해 총 3 개의 React 기반 프로젝트를 성공적으로 완료했습니다.
+        </p>
+        <span className="career-badge">
+          <h3>수료</h3>
+          <h3>2024.05 ~ 2024.11 </h3>
         </span>
       </div>
     </section>
