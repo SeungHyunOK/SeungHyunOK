@@ -91,23 +91,6 @@ export default function About() {
       </div>
       <div className="career" ref={careerRef}>
         <h1>교육 & 경험</h1>
-        <h2>스위프 웹 9기 해커톤 개인 참가 </h2>
-        <p>
-          - '인디 작가 × 소비자 직거래 마켓플레이스' MVP 개발 <br />
-          - 창작자 포트폴리오 전시 + 쇼룸 + 마켓 기능 통합 플랫폼 기획
-          <br />
-          - 니치 타겟팅 디자인으로 취향 기반 고객 확보 전략 수립
-          <br />
-          - 실시간 채팅(Socket.IO),태그 검색(Elasticsearch), 이미지 최적화(WebP,
-          Lazy Loading) 기능 설계
-          <br />
-          - 작가 초대/관리, 커뮤니티, 1:1 문의, 팔로우 등 유저 경험 중심 기능
-          기획 및 구현
-          <br />- Next.js App Router, TypeScript, Zustand, TailwindCSS 사용
-        </p>
-        <span className="career-badge">
-          <h3>2025.04 ~ 현재</h3>
-        </span>
 
         <h2>Google Developers 2025 H1 AI Study Jam 참가</h2>
         <p>
@@ -119,7 +102,35 @@ export default function About() {
           <h3>2025.03 ~ 현재</h3>
         </span>
 
-        <h2>구름EDU 인공지능 언어 마스터 과정 수강 중</h2>
+        <h2>DND 해커톤 참가</h2>
+        <p>
+          12시간 동안 '사회 문제 해결'을 주제로 진행된 해커톤에 참가했습니다.
+          <br />
+          웹 개발을 주로 공부해왔지만, 이번 해커톤에서는 팀 내 iOS 앱 개발을
+          담당하며 새로운 기술 스택을 경험했습니다.
+          <br /> 제한된 시간 안에 기획부터 프로토타입까지 구현했으나 배포까지는
+          완료하지 못했습니다.
+          <br /> 짧은 시간 동안 협업, 문제 해결력, 기술 적응력을 키울 수 있었던
+          도전적인 경험이었습니다.
+        </p>
+        <span className="career-badge">
+          <h3>2025.05.23 ~ 05.24</h3>
+        </span>
+
+        <h2>스위프 웹 9기 해커톤 개인 참가 </h2>
+        <p>
+          - '인디 작가 × 소비자 직거래 마켓플레이스' MVP 개발 <br />
+          - 창작자 포트폴리오 전시 + 쇼룸 + 마켓 기능 통합 플랫폼 기획
+          <br />
+          - 작가 초대/관리, 커뮤니티, 1:1 문의, 팔로우 등 유저 경험 중심 기능
+          기획 및 구현
+          <br />- Next.js App Router, TypeScript, Zustand, TailwindCSS 사용
+        </p>
+        <span className="career-badge">
+          <h3>2025.04 ~ 05</h3>
+        </span>
+
+        <h2>구름EDU 인공지능 언어 마스터 과정</h2>
         <p>
           Python, Pandas, Scikit-learn을 활용한 데이터 분석 및 모델링 실습,
           <br />
@@ -127,7 +138,8 @@ export default function About() {
           (데이터 전처리, 특성 선택, 모델 학습 및 성능 평가 경험)
         </p>
         <span className="career-badge">
-          <h3>2025.03 ~ 현재</h3>
+          <h3>수료</h3>
+          <h3>2025.03 ~ 05</h3>
         </span>
 
         <h2>2025년 블레이버스 MVP 개발 해커톤</h2>
