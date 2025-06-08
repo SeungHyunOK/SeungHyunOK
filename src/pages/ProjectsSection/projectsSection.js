@@ -44,6 +44,43 @@ export default function ProjectsSection() {
         프로젝트
       </h1>
       <div className="projectLists">
+        {/* Artego */}
+        <div className="project">
+          <div className="project-a">
+            <button onClick={() => openModal(Projects.Artego)}>
+              자세히 보기
+            </button>
+            <a
+              href="https://indi-front.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              배포 링크
+            </a>
+            <a
+              href="https://github.com/swyp-9-web/indi-front"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+          <img
+            src="/images/artego/all.gif"
+            alt="artegoTumnail"
+            className="project-image"
+          />
+          <div className="project-content">
+            <h2>Artego</h2>
+            <p>인디 작가 플랫폼 입니다.</p>
+          </div>
+          <div className="badges">
+            <p>팀</p>
+            <p>사이드</p>
+            <p>PC</p>
+          </div>
+        </div>
+
         {/* Glowshelfie */}
         <div className="project">
           <div className="project-a">

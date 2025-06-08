@@ -305,6 +305,65 @@ export const Projects = {
       ],
     },
   ],
+
+  Artego: [
+    {
+      badges: ["팀", "사이드", "PC"],
+      logo: "/images/artego/logo.jpg",
+      title: "Artego",
+      subTitle: "2025.04.07 ~ 2025.05.31",
+      introImg: "/images/artego/all.gif",
+      simpleDescription:
+        "인디 작가 플랫폼 ‘부끄금지’ 팀 프로젝트입니다. 작가와 독자 사이의 인터랙션, 작품 피드 제공, 마이페이지 기능 구현까지 전체 흐름을 담당했습니다.",
+      features: [
+        "작가/독자 계정별 맞춤 피드 구현",
+        "Zustand를 통한 전역 상태 관리",
+      ],
+      techStack: {
+        Nextjs: ["Next.js App Router 기반, SSR 및 SSG로 개인화된 페이지 제공"],
+        TypeScript: ["정적 타입 도입으로 안정성과 협업 생산성 향상"],
+        Zustand: ["경량 전역 상태 관리 도구로 유저·피드 상태 관리"],
+        TailwindCSS: ["유틸리티 클래스 기반으로 반응형 UI 설계"],
+        TanStackQuery: ["서버 상태 관리, 캐싱 및 데이터 fetch 최적화에 사용"],
+        "shadcn/ui": ["구성 요소 라이브러리로 모달·드롭다운·폼 빠르게 구성"],
+        Supabase: ["인증, 데이터 저장 및 실시간 기능 제공"],
+      },
+      workDetails: {
+        "작가 상세페이지 구현": [
+          "URL 파라미터 기반 동적 라우팅으로 작가별 페이지 구성",
+          "작가의 소개, 대표작, 전체 작품 리스트 등 종합 정보 제공",
+          "사용자 친화적인 UI/UX를 고려한 레이아웃 설계 및 구현",
+        ],
+        "프로젝트 초기 셋업": [
+          "Next.js App Router 구조 설계 및 타입 세이프한 라우팅 구성",
+          "Zustand, TanStackQuery, shadcn/ui 등 핵심 라이브러리 설정 및 초기 환경 구성",
+          "코드 컨벤션(Eslint, Prettier, Husky) 및 폴더 구조 통일화",
+        ],
+      },
+      troubleShooting: {
+        "서버 데이터중복 요청": [
+          "해결: React Query 키 구조 최적화",
+          "회고: 쿼리 무결성 중요성 다시 인식함",
+        ],
+        "페이지 렌더 차이 발생": [
+          "해결: Next.js SSR과 CSR 간 상태 싱크 문제 해결",
+          "회고: hydration 오류 대처 경험 축적",
+        ],
+      },
+      results: {
+        홈: ["/images/artego/home.webp"],
+        로그인: ["/images/artego/login.webp"],
+        제품상세페이지: ["/images/artego/detail.webp"],
+        카테고리: ["/images/artego/categori.webp"],
+        팔로잉페이지: ["/images/artego/autherpage.webp"],
+        마이페이지: ["/images/artego/mypage.webp"],
+      },
+      links: [
+        { label: "배포사이트", url: "https://indi-front.vercel.app/" },
+        { label: "GitHub", url: "https://github.com/swyp-9-web/indi-front" },
+      ],
+    },
+  ],
 };
 
 // ProjectName: [
