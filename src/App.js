@@ -28,7 +28,6 @@ function App() {
       <About />
       <Skills />
       <ProjectsSection />
-      <Study />
       <Thanks />
       <Footer />
     </div>

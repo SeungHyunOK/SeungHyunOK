@@ -92,6 +92,12 @@ export default function About() {
       <div className="career" ref={careerRef}>
         <h1>교육 & 경험</h1>
 
+        <h2>네이버 부스트캠프 10기 웹 풀스텍</h2>
+        <p>웹을 풀스택으로 학습하면서 웹 전반을 바라볼 수 있는 시야를 확장</p>
+        <span className="career-badge">
+          <h3>2025.06 ~ 2026.02</h3>
+        </span>
+
         <h2>Google Developers 2025 H1 AI Study Jam 참가</h2>
         <p>
           - Vertex AI, Palm API 등 Google Cloud 기반 생성형 AI 기술 학습 <br />

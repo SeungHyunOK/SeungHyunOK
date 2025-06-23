@@ -45,7 +45,7 @@ export default function Study() {
         </div>
 
         <div className="study-section">
-          <h2>인공지능 언어 처리, 마스터 과정 - Seoul-ICT 구름</h2>
+          <h2>네이버 부스트캠프 10기 풀스텍</h2>
 
           <div className="study-article">
             <p>언어 데이터 분석 능력 함양</p>
